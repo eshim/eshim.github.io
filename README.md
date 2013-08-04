@@ -20,11 +20,6 @@ Task List
 - [x] GitHub Page setup
 - [x] Domain registration (eshim.info)
 - [x] [Custom domain setup with Pages](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
-- [ ] Integrate responsive design for smaller displays, smartphones and tablets
-- [ ] Fill in content
-- [ ] Integrate [Jekyll](https://help.github.com/articles/using-jekyll-with-pages) to integrate blog functionality.
-
-- [ ] a task list item
-- [ ] list syntax required
-- [ ] normal **formatting**, @mentions, #1234 refs
-- [ ] incomplete
+- [o] Integrate responsive design for smaller displays, smartphones and tablets
+- [o] Fill in content
+- [o] Integrate [Jekyll](https://help.github.com/articles/using-jekyll-with-pages) to integrate blog functionality.
