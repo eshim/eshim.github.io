@@ -24,3 +24,7 @@ Task List
 - [ ] Fill in content
 - [ ] Integrate [Jekyll](https://help.github.com/articles/using-jekyll-with-pages) to integrate blog functionality.
 
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
