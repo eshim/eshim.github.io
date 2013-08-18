@@ -13,6 +13,8 @@ All directories and files are under the MIT License for now.
 How it is done
 ==============
 Hosting is provided by [GitHub Pages](pages.github.com/‎).
+Domain registered at [NameCheap](namecheap.com).
+Styling/Normalization/Responsiveness provided by [Bootstrap 3RC1](http://getbootstrap.com/)
 
 
 Task List
@@ -20,6 +22,13 @@ Task List
 - [x] GitHub Page setup
 - [x] Domain registration (eshim.info)
 - [x] [Custom domain setup with Pages](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
+- [o] Design site (will be focusing on carousel concept)
 - [o] Integrate responsive design for smaller displays, smartphones and tablets
 - [o] Fill in content
 - [o] Integrate [Jekyll](https://help.github.com/articles/using-jekyll-with-pages) to integrate blog functionality.
+
+
+Things I learned
+================
+- 1. Positioning, as ever, is a nuisance.
+- [x] Domain registration (eshim.info)
