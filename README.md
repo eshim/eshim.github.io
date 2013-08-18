@@ -32,8 +32,8 @@ Things I learned
 ================
 - 1. Positioning, as ever, is a nuisance.
 - 2. A bit more about Twitter Bootstrap Carousels
-- 3. 
 
 Questions
 =========
-- 1. Made a miniscule change to the Bootstrap Javascript, what are the best practices concerning a change to such a framework?
+- 1. Made a miniscule change to the Bootstrap Javascript, what are the best practices concerning alterations to such a framework?
+- 2. How should I remove the redundant posting of my name while maintaining a sort of brand appeal?
