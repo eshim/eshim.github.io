@@ -1,3 +1,5 @@
+//Carousel functions not currenty in use.
+
 
 /* DISABLE CAROUSEL AUTOCYCLING */
 $('#myCarousel').carousel({
@@ -25,4 +27,20 @@ $('.nav > li > a').click(function() {
     // don't follow the link
     return false;
 });
-             
+
+
+/* AUTOPLAY NAV HIGHLIGHT */
+
+// bind 'slid' function
+$('#myCarousel').bind('slid', function() {
+
+    // remove active class
+    $('.nav .active').removeClass('active');
+
+    // get index of currently active item
+    var idx = $('#myCarousel .item.active').index();
+
+    // select currently active item and add active class
+    $('.nav li:eq(' + idx + ')').addClass('active');
+
+});             

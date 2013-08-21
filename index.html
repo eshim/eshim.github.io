@@ -6,74 +6,54 @@
 	<link href="media/css/custom.css" rel="stylesheet" />
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic' rel='stylesheet' type='text/css'>
 </head>
-	
-
 
 <body>
 	
-	<div class="navbar-fixed-top">
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
-			<a class="navbar-brand" href="#">ES</a>
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#1">About Me</a></li>
-				<li><a href="#2">Projects</a></li>
-				<li><a href="#3">Contact</a></li>
+			<!-- <a class="navbar-brand" href="#">ES</a> -->			<ul class="nav navbar-nav nav-justified">
+				<li class="active"><a href="#aboutme">About Me</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>
-	<div id="myCarousel" class="carousel slide">
-
-		<div class="carousel-inner">
+	<div id="aboutme" class="active item">
+	<section class="card white">
+		<div class="masthead">
+			<div class="container">
+				<h1 class="text-center">Eugene Shim</h1>
+				<p class="lead text-center">|yoo-<b>jeen</b> shim|</p>
+				<p class="lead text-center">I enjoy developing intuitive applications and learning everything I can along the way.</p>
 				
-			<div class="active item">
-				
-				<section class="home frontend">
-					<div class="masthead">
-						<div class="container">
-							<h1 class="text-center">Eugene Shim</h1>
-							<p class="lead text-center">I make products intuitive and responsive. </br> I research, experiment, and craft.  </br> I design. </p>
-						</div>
-					</div>
-				</section>
-				
-				<section class="home backend">
-					<div class="masthead">
-						<div class="container">
-							<h1 class="text-center">Eugene Shim</h1>
-							<p class="lead text-center">I develop powerful and efficient applications. </br> I solve, test, and code.  </br> I build. </p>
-						</div>
-					</div>
-				</section>
-				
-			</div>
-			
-			<div class="item">
-				<section class="home backend">
-					<div class="masthead">
-						<div class="container">
-							<h1 class="text-center">Eugene Shim</h1>
-							<p class="lead text-center">I develop powerful and efficient applications. </br> I solve, test, and code.  </br> I build. </p>
-						</div>
-					</div>
-				</section>
-			</div>
-			
-			<div class="item">
-				<section class="home frontend">
-					<div class="masthead">
-						<div class="container">
-							<h1 class="text-center">Eugene Shim</h1>
-							<p class="lead text-center">I make products intuitive and responsive. </br> I research, experiment, and craft.  </br> I design. </p>
-						</div>
-					</div>
-				</section>
 			</div>
 		</div>
-		<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-	  	<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>	
-	</div>
+	</section>
+	
+	<section id="projects" class="card black">
+		<div class="masthead">
+			<div class="container">
+				<p class="lead text-center"> </p>
+			</div>
+		</div>
+	</section>
+	<section id="contact" class="card half white">
+		<h2 class="text-left">Contact</h2>
+		<div class="masthead">
+			<div class="container">
+				<div class="jumbotron">
+					<h2 class="text-center"> Fork/Follow </h2>
+				</div>
+			</div>
+			<!-- <div class="container">
+				<p class="lead text-center"> </p>
+			</div> -->
+		</div>
+	</section>
+</div>
 	
 	
+	<!-- Javascript -->
 	<script src="media/js/jquery-2.0.3.min.js"></script>
 	<script src="media/js/bootstrap.min.js"></script>
 	<script src="media/js/custom.js"></script>
