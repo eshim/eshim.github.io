@@ -1,5 +1,6 @@
 body, html {
-	height: 100%
+	height: 100%;
+	font-family: 'Ubuntu', san-serif;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
 .masthead {
 	display: table-cell;
     vertical-align: middle;
-	font-family: 'Ubuntu', san-serif;
+	
 }
 
 .card {
@@ -33,9 +34,27 @@ body {
 	height:100%;
 }
 
+.four-fifths {
+	height:80%;
+}
+
+.two-thirds {
+	height: 66.7%;
+}
+
 .half {
 	height: 50%;
 }
+
+span {
+	padding: 6px;
+	border-radius: 4px;
+	display: inline-block;
+	color: white;
+	opacity: .8;
+	background: black;
+}
+
 
 .white {
 	background-color: white;
@@ -55,6 +74,52 @@ h1 {
 	font-family: inherit;
 }
 
+/*
+ * About Me
+ */
+
+#drew-university {
+	background: url("../img/backgrounds/drew-university.jpg") no-repeat fixed;
+	background-size: cover;
+	position:relative;
+}
+
+
+#philosophy {
+	background: url("../img/backgrounds/school-of-athens.jpg") no-repeat fixed;
+	background-size: cover;
+}
+
+/***********
+ * Contact *
+ ***********/
+
+.contacticon {
+	background-color: #d5d5d5;
+	display: table-cell;
+	margin: 0px auto;
+	float:none;
+	height: 128px;
+	width: 128px;
+	-webkit-transition: all .15s linear;
+	   -moz-transition: all .15s linear;
+		-ms-transition: all .15s linear;
+			transition: all .15s linear;
+}
+
+#githublink:hover {
+	background-color: #231F20;
+}
+
+#gmaillink:hover{
+	background-color: #CB2027;
+}
+
+#linkedinlink:hover{
+	background-color: #007FB1;
+}
+
+
 /* Hack to: 
  * 1) deal with intrusive navbar in smaller display sizes and 
  * 2) justify the navigation buttons in the bar.
@@ -69,3 +134,4 @@ h1 {
     float:none;
     width: 33%;
 }
+

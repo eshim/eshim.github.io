@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Eugene Shim</title>
-	<link href="media/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="media/css/bootstrap.css" rel="stylesheet" />
 	<link href="media/css/custom.css" rel="stylesheet" />
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic' rel='stylesheet' type='text/css'>
 </head>
@@ -11,47 +11,150 @@
 	
 	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
-			<!-- <a class="navbar-brand" href="#">ES</a> -->			<ul class="nav navbar-nav nav-justified">
-				<li class="active"><a href="#aboutme">About Me</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
+			<ul class="nav navbar-nav nav-justified">
+				<li class="active"><a href="#1">About Me</a></li>
+				<li><a href="#2">My work</a></li>
+				<li><a href="#3">Contact</a></li>
 			</ul>
 		</div>
 	</div>
-	<div id="aboutme" class="active item">
-	<section class="card white">
-		<div class="masthead">
-			<div class="container">
-				<h1 class="text-center">Eugene Shim</h1>
-				<p class="lead text-center">|yoo-<b>jeen</b> shim|</p>
-				<p class="lead text-center">I enjoy developing intuitive applications and learning everything I can along the way.</p>
+	<div id="myCarousel" class="carousel slide">
+		<div class="carousel-inner">
+			<!-- About Me -->
+			<div class="active item">
+				<section class="card four-fifths black">
+					<div class="masthead">
+						<div class="container">
+							<h1 class="text-center">Eugene Shim</h1>
+							<p class="lead text-center">|yoo-<b>jeen</b> shim|</p>
+							<p class="lead text-center">I enjoy developing intuitive applications and learning everything I can along the way.</p>
+							
+						</div>
+					</div>
+				</section>
+				<section id="drew-university" class="card two-thirds">
+					<div class="masthead">
+						<div class="container">
+							<p class="lead text-center"><span>I'm a graduating senior at Drew University</span></p>
+						</div>
+					</div>
+				</section>		
+				
+				<section class="card two-thirds black">
+					<div class="masthead">
+						<div class="container">
+							<p class="lead text-center"><span>who studies Computer Science</span></p>
+						</div>
+					</div>
+				</section>	
+				
+				<section id="philosophy" class="card two-thirds">
+					<div class="masthead">
+						<div class="container">
+							<p class="lead text-center"><span>and Philosophy.</span></p>
+						</div>
+					</div>
+				</section>
+				
+					
+				<section id="skills" class="card two-thirds white">
+					<div class="container">
+					<p class="lead text-center">Someone who has learned to solve problems by asking the right questions.</h1>
+					</div>
+				
+						
+					<div class="container">
+						<div class="row"></div>
+						<div class="col-sm-6">
+							<ul id"skills-list">
+								<li>Programming Skills</li>
+								<li>Python</li>
+								<li>Django</li>
+								<li>Unit Testing</li>
+								<li>MySQL</li>
+								<li>Git/Version Control</li>
+							</ul>
+						</div>
+						<div class="col-sm-6">
+							<ul id="skills-list">
+								<li>Web Development Skills</li>
+								<li>HTML</li>
+								<li>CSS/LESS</li>
+								<li>Javascript/Jquery</li>
+								<li>Twitter Bootstrap</li>
+								<li>Responsive Design/Media Queries</li>
+							</ul>
+						</div>
+					</div>
+					<div class="container">
+						<a href="#">My Resume</a>
+					</div>
+				</section>					
+			</div>
+			<!-- Projects -->
+			<div class="item">
+				<section class="card half white">
+					<div class="masthead">
+						<div class="container">
+							<h1 class="text-center">Front End</h1>
+							<p class="lead text-center">I make products intuitive and responsive. </br> I research, experiment, and design.  </br> I craft. </p>
+						</div>
+					</div>
+				</section>
+				
+				<section class="card half black">
+					<div class="masthead">
+						<div class="container">
+							<h1 class="text-center">Back End</h1>
+							<p class="lead text-center">I develop powerful and efficient applications. </br> I solve, test, and code.  </br> I build. </p>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- Contact -->
+			<div class="item">
+				<!-- Contact Form -->
+				<section class="card white">
+					
+					<div class="masthead">
+						<div class="container">
+						<h1 class="text-center">Let's get in touch</h1>
+					</div>
+						<div class="container">						
+								
+							<div class="row">
+
+								<div class="col-xs-6 col-sm-3">
+									<a href="https://github.com/eshim">
+										<img id="githublink" class="contacticon" src="media/img/github/github-128.png" alt="GitHub">
+									</a>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<a  href="mailto:eugenejshim@gmail.com">
+										<img id="gmaillink" class="contacticon" src="media/img/gmail/gmail-128.png" alt="Gmail">
+									</a>
+								</div>
+									
+								<div class="col-xs-6 col-sm-3">
+									<a  href="http://www.linkedin.com/in/eugenejshim">
+										<img id="linkedinlink" class="contacticon" src="media/img/linkedin/linkedin-128.png" alt="LinkedIn">
+									</a>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<a  href="http://www.linkedin.com/in/eugenejshim">
+										<img id="linkedinlink" class="contacticon" src="media/img/linkedin/linkedin-128.png" alt="LinkedIn">
+									</a>
+								</div>
+
+							</div>
+							
+						</div>
+					</div>
+				</section>
 				
 			</div>
 		</div>
-	</section>
-	
-	<section id="projects" class="card black">
-		<div class="masthead">
-			<div class="container">
-				<p class="lead text-center"> </p>
-			</div>
-		</div>
-	</section>
-	<section id="contact" class="card half white">
-		<h2 class="text-left">Contact</h2>
-		<div class="masthead">
-			<div class="container">
-				<div class="jumbotron">
-					<h2 class="text-center"> Fork/Follow </h2>
-				</div>
-			</div>
-			<!-- <div class="container">
-				<p class="lead text-center"> </p>
-			</div> -->
-		</div>
-	</section>
-</div>
-	
+	</div>
 	
 	<!-- Javascript -->
 	<script src="media/js/jquery-2.0.3.min.js"></script>
