@@ -1,3 +1,7 @@
+/***********
+ * General *
+ ***********/
+
 body, html {
 	height: 100%;
 	font-family: 'Ubuntu', san-serif;
@@ -5,6 +9,15 @@ body, html {
 
 body {
 	padding-top: 50px; 
+}
+
+p {
+	font-size: 2em;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
 }
 
 .navbar {
@@ -74,9 +87,9 @@ h1 {
 	font-family: inherit;
 }
 
-/*
- * About Me
- */
+/************
+ * About Me *
+ ************/
 
 #drew-university {
 	background: url("../img/backgrounds/drew-university.jpg") no-repeat fixed;
@@ -90,14 +103,29 @@ h1 {
 	background-size: cover;
 }
 
+ul.skills-list li {
+	font-size: 1.2em;	border-bottom: 1px dotted grey;
+	line-height: 2em;
+}
+
+ul.skills-list li.skills-header {
+	font-size: 1.7em;
+	border-bottom: 10px solid grey;
+	
+}
+
 /***********
  * Contact *
  ***********/
 
-.contacticon {
-	background-color: #d5d5d5;
+#contact-icons a {
+	text-decoration: none;
+}
+
+#contact-icons a img {
+	background-color: #D5D5D5;
 	display: table-cell;
-	margin: 0px auto;
+	margin: 0 auto 1em;
 	float:none;
 	height: 128px;
 	width: 128px;
@@ -107,18 +135,45 @@ h1 {
 			transition: all .15s linear;
 }
 
-#githublink:hover {
+.contact-text {
+	margin: 1em 0 .25em;
+	-webkit-transition: all .15s linear;
+	   -moz-transition: all .15s linear;
+		-ms-transition: all .15s linear;
+			transition: all .15s linear;
+}
+
+#githublink:hover .contact-text {
+	color: #231F20;
+}
+	
+#githublink:hover img {
 	background-color: #231F20;
 }
 
-#gmaillink:hover{
+#gmaillink:hover .contact-text {
+	color: #CB2027;
+}
+
+#gmaillink:hover img {
 	background-color: #CB2027;
 }
 
-#linkedinlink:hover{
+#linkedinlink:hover .contact-text {
+	color: #007FB1;
+}
+
+#linkedinlink:hover img {
 	background-color: #007FB1;
 }
 
+#skypelink:hover .contact-text {
+	color: #00AFF0;
+}
+
+#skypelink:hover img {
+	background-color: #00AFF0;
+}
 
 /* Hack to: 
  * 1) deal with intrusive navbar in smaller display sizes and 
