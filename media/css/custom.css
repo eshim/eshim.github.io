@@ -118,11 +118,11 @@ ul.skills-list li.skills-header {
  * Contact *
  ***********/
 
-#contact-icons a {
+#contact-icons div a {
 	text-decoration: none;
 }
 
-#contact-icons a img {
+#contact-icons div a img {
 	background-color: #D5D5D5;
 	display: table-cell;
 	margin: 0 auto 1em;
@@ -186,7 +186,7 @@ ul.skills-list li.skills-header {
 }
 
 .navbar-nav.nav-justified > li{
-    float:none;
+    float:left;
     width: 33%;
 }
 
