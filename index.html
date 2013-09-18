@@ -16,12 +16,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic' rel='stylesheet' type='text/css' />
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="70">
 	
-	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<ul class="nav navbar-nav nav-justified">
-			<li class="active"><a href="#splash" >About Me</a></li>
-			<li ><a href="#project1">My Work</a></li>
+			<li ><a href="#splash" >About Me</a></li>
+			<li ><a href="#projects">Recent Projects</a></li>
 			<li ><a href="#contact" >Contact</a></li>
 		</ul>
 	</div>
@@ -70,7 +70,8 @@
 			<div class="row">
 				<div class="col-sm-6 col-md-4">
 					<ul class="skills-list">
-						<li class="skills-header">Programming Skills</li>						<li>Python</li>
+						<li class="skills-header">Programming Skills</li>
+						<li>Python</li>
 						<li>Django</li>
 						<li>Unit Testing</li>
 						<li>MySQL</li>
@@ -78,7 +79,8 @@
 					</ul>
 				</div>
 				<div class="col-sm-6 col-md-4">
-					<ul class="skills-list">						<li class="skills-header">Web Dev Skills</li>
+					<ul class="skills-list">
+						<li class="skills-header">Web Dev Skills</li>
 						<li>HTML</li>
 						<li>CSS/LESS</li>
 						<li>Javascript/Jquery</li>
@@ -87,27 +89,47 @@
 					</ul>
 				</div>
 				<div class="col-sm-12 col-md-4">
-					<p class="text-center">Learn more</p>
-					<p><a href="#" class="btn btn-primary btn-lg btn-block">Resum&eacute</a></p>
-					<p><a href="#" class="btn btn-primary btn-lg btn-block disabled">Blog</a></p>
-					<p><a href="#" class="btn btn-primary btn-lg btn-block disabled">TBA</a></p>
+					<ul class="skills-list">
+						<li class="skills-header" >Learn more</li>
+						<p id="first-button"><a href="#" class="btn btn-primary btn-lg btn-block" >Resum&eacute</a></p>
+						<p><a href="#" class="btn btn-primary btn-lg btn-block disabled">Blog</a></p>
+						<p><a href="#" class="btn btn-primary btn-lg btn-block disabled">TBA</a></p>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</section>					
 	
-	<section id="project1" class="card half black">
+	<section id="projects"  class="card one-third black">
 		<div class="masthead">
 			<div class="container">
-				<h1 class="text-center">Front End</h1>
-				<p class="text-center">I make products intuitive and responsive. </br> I research, experiment, and design.  </br> I craft. </p>
+				<p class="text-center">Most Recent Projects</p>
 			</div>
 		</div>
 	</section>
-	<section id="project2" class="card half black">
+	<section id="project1" class="card four-fifths white">
+		<div class="masthead">
+			<div id="responsive" class="container">
+				<p class="text-center">Porfolio Site v1.0</p>
+
+				<p class="text-center">An online portfolio with cross-browser compatability and <a href="johnpolacek.github.io/scrolldeck.js/desk/responsive">responsive design.</a></p>
+				<p class="text-center">	Built quickly as a side project using <a href="www.getbootstrap.com">Bootstrap 3</a>, 
+				<a href="www.jquery.com">jQuery</a> and  
+				   <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">GitHub Pages</a>  
+				</p>
+				<p class="text-center">More information on <a href="https://github.com/eshim/eshim.github.io">GitHub</a></p>
+
+			</div>
+		</div>
+	</section>
+	
+	<section id="project2" class="card four-fifths black">
 		<div class="masthead">
 			<div class="container">
 				<h1 class="text-center">Back End</h1>
+				<div class="row">
+					<div class="col-xs-12 col-"></div>
+				</div>
 				<p class="text-center">I develop powerful and efficient applications. </br> I solve, test, and code.  </br> I build. </p>
 			</div>
 		</div>

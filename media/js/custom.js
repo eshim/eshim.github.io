@@ -5,4 +5,6 @@ jQuery(document).ready(function(){
 		offset: {left:0, top:-50}
 	});
 	
+	//call scrollspy
+	$('#navbar').scrollspy();
 });

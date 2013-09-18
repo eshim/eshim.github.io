@@ -20,6 +20,7 @@ ul {
 	list-style-type: none;
 }
 
+
 /**************
  * Navigation *
  **************/
@@ -28,10 +29,33 @@ ul {
 	margin-bottom: 0px;
 }
 
+/* Hack to: 
+ * 1) deal with intrusive navbar in smaller display sizes and 
+ * 2) justify the navigation buttons in the bar.
+ * Adapted from: https://github.com/twbs/bootstrap/issues/8682
+ */
+
+.navbar-nav {
+	margin: 0;
+}
+
+.navbar-nav.nav-justified {
+    display:table;
+}
+
+.navbar-nav.nav-justified > li {
+    float:left;
+    width: 33%;
+}
+
 .masthead {
 	display: table-cell;
     vertical-align: middle;	
 }
+
+/****************
+ * Organization *
+ ****************/
 
 .card {
 	display: table;
@@ -49,6 +73,10 @@ ul {
 
 .half {
 	height: 50%;
+}
+
+.one-third {
+	height: 33.3%;
 }
 
 span.text-backing {
@@ -130,16 +158,41 @@ span.block-cursor {
 }
 
 ul.skills-list li {
-	font-size: 1.2em;	border-bottom: 1px dotted grey;
+	font-size: 1.2em;
+	border-bottom: 1px dotted grey;
 	line-height: 2em;
 }
 
 ul.skills-list li.skills-header {
 	font-size: 1.7em;
-	border-bottom: 10px solid #428BCA;
-	
+	border-bottom: 10px solid #428BCA;	
 }
 
+/* A bit overkill */
+ul.skills-list p#first-button{
+	
+	padding-top: .5em;
+}
+
+/************
+ * Projects *
+ ************/
+div#responsive {
+
+	background: url("../img/responsive_web_design.png");
+	background-size: 300px 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:rgba(255,0,0,0.5);
+}
+
+/*add meda query to set responsive img behind other*/
+
+div#responsive img {
+	height: 70%;
+	width: 70%;
+	margin: 0 auto;
+}
 /***********
  * Contact *
  ***********/
@@ -200,23 +253,3 @@ ul.skills-list li.skills-header {
 #skypelink:hover img {
 	background-color: #00AFF0;
 }
-
-/* Hack to: 
- * 1) deal with intrusive navbar in smaller display sizes and 
- * 2) justify the navigation buttons in the bar.
- * Adapted from: https://github.com/twbs/bootstrap/issues/8682
- */
-
-.navbar-nav {
-	margin: 0;
-}
-
-.navbar-nav.nav-justified {
-    display:table;
-}
-
-.navbar-nav.nav-justified > li{
-    float:left;
-    width: 33%;
-}
-
