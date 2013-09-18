@@ -183,7 +183,6 @@ div#responsive {
 	background-size: 300px 200px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color:rgba(255,0,0,0.5);
 }
 
 /*add meda query to set responsive img behind other*/
