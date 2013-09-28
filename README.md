@@ -1,4 +1,4 @@
-My Porfolio Site
+My Portfolio Site
 ================
 
 This serves as a host to my work in GitHub.
@@ -31,7 +31,7 @@ Task List
 - [o] Minimize Javascript and CSS files
 - [o] Source inspirations
 - [o] Follow standard practices (refer to em instead of px measurement)
-- [o] Integrate [Jekyll](https://help.github.com/articles/using-jekyll-with-pages) to integrate blog functionality.
+- [o] Integrate [Jekyll](https://help.github.com/articles/using-jekyll-with-pages) for blog functionality.
 
 
 Things I learned
