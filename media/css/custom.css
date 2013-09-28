@@ -11,13 +11,18 @@ body {
 	padding-top: 50px; 
 }
 
+
 p {
-	font-size: 2em;
+	font-size: 1.2em;
 }
 
 ul {
 	padding: 0;
 	list-style-type: none;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 
@@ -196,10 +201,6 @@ div#responsive img {
  * Contact *
  ***********/
 
-#contact-icons div a {
-	text-decoration: none;
-}
-
 #contact-icons div a img {
 	background-color: #D5D5D5;
 	display: table-cell;
@@ -221,7 +222,7 @@ div#responsive img {
 			transition: all .15s linear;
 }
 
-#githublink:hover .contact-text {
+#githublink:hover h2 {
 	color: #231F20;
 }
 	
@@ -229,7 +230,7 @@ div#responsive img {
 	background-color: #231F20;
 }
 
-#gmaillink:hover .contact-text {
+#gmaillink:hover h2 {
 	color: #CB2027;
 }
 
@@ -237,7 +238,7 @@ div#responsive img {
 	background-color: #CB2027;
 }
 
-#linkedinlink:hover .contact-text {
+#linkedinlink:hover h2 {
 	color: #007FB1;
 }
 
@@ -245,7 +246,7 @@ div#responsive img {
 	background-color: #007FB1;
 }
 
-#skypelink:hover .contact-text {
+#skypelink:hover h2 {
 	color: #00AFF0;
 }
 
