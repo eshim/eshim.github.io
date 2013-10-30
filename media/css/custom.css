@@ -195,13 +195,6 @@ div#responsive {
 	background-position: center;
 }
 
-/*add meda query to set responsive img behind other*/
-
-div#responsive img {
-	height: 70%;
-	width: 70%;
-	margin: 0 auto;
-}
 /***********
  * Contact *
  ***********/
@@ -257,4 +250,11 @@ div#responsive img {
 
 #skypelink:hover img {
 	background-color: #00AFF0;
+}
+
+
+@media (max-device-width: 371px) {
+	::-webkit-scrollbar { 
+    display: none; 
+	}
 }
