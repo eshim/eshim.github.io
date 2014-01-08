@@ -203,6 +203,8 @@ div#responsive {
 	background-color: #D5D5D5;
 	display: table-cell;
 	margin: 0 auto 1em;
+	padding-left: auto;
+	padding-right:auto;
 	float:none;
 	height: 128px;
 	width: 128px;
@@ -252,7 +254,16 @@ div#responsive {
 	background-color: #00AFF0;
 }
 
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
 
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+ 
 @media (max-device-width: 371px) {
 	::-webkit-scrollbar { 
     display: none; 
