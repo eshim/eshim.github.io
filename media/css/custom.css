@@ -11,19 +11,19 @@
     zoom: 1.0;
 }
 
-
 /***********
  * General *
  ***********/
 
 body, html {
 	height: 100%;
-	overflow-x: hidden;
 	font-family: 'Ubuntu', san-serif;
 }
 
 body {
 	padding-top: 50px; 
+	float: left;
+	min-width:100%;
 }
 
 
@@ -129,11 +129,7 @@ span.text-backing {
 
 h1 {
 	font-family: inherit;
-	font-size: 5em;
-}
-h2 {
-	font-size: 1em;
-
+	font-size: 6em;
 }
 
 .lead {
@@ -185,6 +181,16 @@ span.block-cursor {
 	background: url("../img/backgrounds/school-of-athens.jpg") no-repeat fixed;
 	background-size: cover;
 }
+
+/**********
+ * Skills *
+ **********/
+
+.row { /* Added unneccesary space to the width */
+	margin: 0; 
+}
+
+
 
 #skills .container {
 	padding: 1em 0 1em;
