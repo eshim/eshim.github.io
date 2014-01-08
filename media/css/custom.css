@@ -1,3 +1,17 @@
+/*************************
+ * CSS Device Adaptation *
+ *************************/
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+
 /***********
  * General *
  ***********/
@@ -110,7 +124,7 @@ span.text-backing {
 
 h1 {
 	font-family: inherit;
-	font-size: 100px;
+	font-size: 90px;
 }
 
 .lead {
@@ -254,15 +268,7 @@ div#responsive {
 	background-color: #00AFF0;
 }
 
-@viewport {
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
 
-@-ms-viewport {
-    width: extend-to-zoom;
-    zoom: 1.0;
-}
  
 @media (max-device-width: 371px) {
 	::-webkit-scrollbar { 
